@@ -1,1 +1,8 @@
-
+Download the mongodb from the site https://www.mongodb.com/download-center?jmp=homepage#community for appropriate operating system
+Then extract the package and install it without mongodbcompass which takes much time 
+The files will be installed at C:\programfiles folder
+Come to C:\ and create directory data 
+Inside the data folder create db which will be used by the mongodb
+Now run the mongod.exe in bin folder of Mongodb in programm files
+After the successful execution run the Mongo.exe in a new terminal which gives you access to create and update the nosql databases
+Tutorials for the integration of mongo with python and exclusive mongodb are found in Mongo_python, Mongo_tutorials folders respectively
