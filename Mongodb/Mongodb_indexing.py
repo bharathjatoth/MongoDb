@@ -11,3 +11,9 @@ db1.test.insert(({'i': list1[i]} for i in range(len(list1)))) #inserting data in
 print(db1.test.count())
 for post in range(db1.test.count()):
     print(db1[post])
+#searching for the data we needed
+x1 = db1.test.find({"i":'value you needed to search'})
+
+#sorting by date
+x1 = db1.test.find().sort({'date':1}) #ascending order
+# x1 = db1.test.find().sort({'date':-1}) #descending order
