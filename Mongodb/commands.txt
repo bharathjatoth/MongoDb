@@ -1,0 +1,7 @@
+insert new field to each row in collection
+# if upsert is True it will create a new document if none of the condition matches
+# multi: true do it for all the multiple documents
+db.test.update({},{$set:{"date":152964698}},{upsert:false,multi:true}) #inserts date filed in all rows for test collection
+db.test.update({"_id":Object(asdasdasdas)},{$set:{"date":1529646988}},{upsert:false,multi:true}) #for a specific entry in a collection
+
+
