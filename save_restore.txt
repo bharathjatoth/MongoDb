@@ -1,0 +1,8 @@
+#first make db as a dump with the following command
+mongodump  --db test --collection collectionname (ex mongodump --db databasename) if collection(specific is required) (mongodump  --db test --collection collection) 
+
+#To restore the model 
+Open the command prompt navigate to bin folder of the mongodb and give the following command
+mongorestore.exe --dir (path to the dump folder) --db (name in the mongodb)
+ex: mongorestore.exe --dir C:\users\Desktop\dump --db newdb
+
